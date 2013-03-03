@@ -3,7 +3,7 @@ package MIME::Base85;
 require 5.005_62;
 
 use vars qw( $VERSION );
-$VERSION = '1.0';
+$VERSION = '1.1';
 
 use Inline Python => <<'END';
 
@@ -105,7 +105,7 @@ NOTHING
 
 =head1 AUTHOR
 
-Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+-
 
 =head1 SEE ALSO
 

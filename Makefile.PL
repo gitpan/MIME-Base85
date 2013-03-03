@@ -7,6 +7,6 @@ WriteMakefile(
     'PREREQ_PM'		=> {Inline::Python => 0.36}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ? (
       ABSTRACT_FROM => 'Base85.pm', 
-      AUTHOR     => 'Stefan Gipper <stefanos@cpan.org>',
+      AUTHOR     => '-',
     ) : ()),
 );
